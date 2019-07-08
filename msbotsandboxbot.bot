@@ -1,0 +1,18 @@
+{
+    "name": "msbotsandboxbot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978",
+            "id": "ff7f6ec0-a183-11e9-901d-3dea4d517708",
+            "name": "http://localhost:3978"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "/home/conor/dev/msbotsandbox"
+}

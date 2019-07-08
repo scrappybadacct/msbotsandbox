@@ -1,8 +1,9 @@
 require("dotenv").config();
 
-const http = require("http");
-const serverCallback = require("./build/serverCallback");
+const server = require("./build/server");
 
 const port = process.env.PORT || 3001;
 
-http.createServer(serverCallback).listen(port);
+server.listen(port, () => {
+  console.log(`Server is listening on ${port}`);
+});

@@ -5,10 +5,10 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 module.exports = {
   mode: "development",
   target: "node",
-  entry: "./src/serverCallback.ts",
+  entry: "./src/server.ts",
   output: {
     path: path.resolve(__dirname, "../build"),
-    filename: "serverCallback.js",
+    filename: "server.js",
     libraryTarget: "commonjs2",
     libraryExport: "default"
   },
